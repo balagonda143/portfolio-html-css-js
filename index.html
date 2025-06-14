@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahesh B | Frontend Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+    <link rel="icon" href="data:,">
+
+</head>
+<body>
+    <nav id="desktop-nav">
+      <div class="logo">Mahesh B</div>
+      <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>   
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>  
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Mahesh B</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+            <li><a href="#about"  onclick="toggleMenu()">About</a></li>
+            <li><a href="#skills"  onclick="toggleMenu()">Skills</a></li>   
+            <li><a href="#project"  onclick="toggleMenu()">Project</a></li>
+            <li><a href="#contact"  onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Mahesh B profile-picture" class="profile-pic">
+        </div>
+        <div class="section__text">
+            <p class=" section__text__p1">Hello, I'm</p>
+            <h1 class="title">Mahesh B</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/mahesh-balagonda-688835285?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BH5cu1EkNSpqtH5pDi7ycJA%3D%3D/'">
+                <img src="./assets/github.png" alt="My github profile" class="icon" onclick="location.href='https://github.com/balagonda143/'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know more</p>
+        <h1 class="title">About Me</h1>
+         <div class="text-container">
+                <p>I’m a Civil Engineering graduate who found a deep interest in web development and software technologies.<br>
+                     During my studies, I discovered my passion for logic-building, problem-solving, and design, which led me to start learning frontend development.
+                      I am now actively working on projects in HTML, CSS, JavaScript, and React.</p>
+            </div>
+        <div class="section-container">     
+        <div class="about-details-container">
+            <div class="about-containers">
+
+                <div class="details-container">
+                    <img src="./assets/education.png" alt="education icon" class="icon">
+                    <h3>Education</h3>
+                    <h4>Yogi Vemana University of Proddutur</h4>
+                    <p>B.Tech in Civil Engineering </p>
+                    <p>2020-2024 | 68%</p>
+                </div>
+
+                <div class="details-container">
+                    <img src="./assets/12th.png" alt="12th icon" class="icon">
+                    <h4>Board of Intermediate Education ANDHRA PRADESH</h4>
+                    <p>M.J.P.A.P.B.C.W.R. Jr College Lepakshi </p>
+                    <p>2018-2020 | 6.07 CGPA</p>
+                </div>
+
+                <div class="details-container">
+                    <img src="./assets/10th.png" alt="10th icon" class="icon">
+                    <h4>Board of Secondary Education ANDHRA PRADESH </h4>
+                    <p>M.J.P.A.P.B.C.W.R. School Lepakshi </p>
+                    <p> 2018 | 8.7 GPA</p>
+                </div>
+
+            </div>  
+        </div>
+       
+    </section>
+
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="text-container">
+                <p>I have a solid foundation in web development, including HTML, CSS, JavaScript, and React. 
+                    I’m also skilled in responsive design, version control using Git, and creating clean, user-friendly interfaces.</p>
+            </div>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    
+                    <h2 class="skills-sub-title">Frontend Development</h2>
+                    
+                    <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>React Js</h3>
+                        </div>
+                    </article>  
+                    </div>
+
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Backend Development</h2>
+                    
+                    <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>Programming</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>Java</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>Advanced Java</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>Spring</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>SQL</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                        <div>
+                            <h3>GitHub</h3>
+                        </div>
+                    </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <section id="project">
+        <p class="section__text__p1">Browse My React</p>
+        <h1 class="title">Project</h1>
+        <div class="skills-details-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/project.png" alt="project" class="project-img">
+                    <div>
+                        <!-- <h2 class="skills-sub-title project-title">Project</h2> -->
+                        <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/balagonda143/Health-Care-Dashboard.git'">GitHub</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <section id="contact">
+  <p class="section__text__p1">Let's Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <p class="text-container">I’d love to hear from you! Whether you have a question, a project proposal, or just want to say hello, feel free to send me a message.</p>
+
+  <form class="contact-form" action="https://formsubmit.co/mahesh144b@gmail.com" method="post">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone" placeholder="Your Phone" />
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+    <div class="form-buttons">
+      <button type="submit" class="btn send">Send Message</button>
+      <button type="reset" class="btn reset">Reset</button>
+    </div>
+  </form>
+</section>
+
+<footer>
+  <div class="social-icons">
+    <a href="https://github.com/balagonda143/" target="_blank">
+      <img src="assets/github.png" alt="GitHub" />
+    </a>
+    <a href="https://www.linkedin.com/in/mahesh-balagonda-688835285" target="_blank">
+      <img src="assets/linkedin.png" alt="LinkedIn" />
+    </a>
+    <a href="https://www.instagram.com/name_is_lucky___/" target="_blank">
+      <img src="assets/instagram.png" alt="Instagram" />
+    </a>
+  </div>
+  <p>Designed and Developed by <strong>Mahesh B</strong>.</p>
+  <p>&copy; 2025 Mahesh B. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body> 
+</html>
